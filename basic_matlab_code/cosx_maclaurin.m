@@ -1,12 +1,17 @@
 function y = cosx_maclaurin(x,tol)
+    % cos(x) fonksiyonunu Maclaurin serisi kullanarak yaklaþtýr
 
-y = 1;
-t = 1;
-k = 1;
+    % x: Yaklaþtýrýlacak noktanýn deðeri
+    % tol: Tolerans deðeri, serinin ne kadar geniþletileceðini kontrol eder
 
-while (max(abs(t)) >= tol)
-    t = t.*(-x.^2)./((2*k)*(2*k-1));
-    y = y + t;
-    k = k + 1;
-end
+    y = 1;     % Baþlangýç deðeri (k=0 terimi)
+    t = 1;     % Ýlk terim
+    k = 1;     % Ýterasyon sayacý
+
+    % Toleransa ulaþýlýncaya kadar devam et
+    while (max(abs(t)) >= tol)
+        t = t .* (-x.^2) ./ ((2*k) * (2*k-1));  % Maclaurin serisi terimi
+        y = y + t;  % Seriyi güncelle
+        k = k + 1;  % Ýterasyon sayacýný artýr
+    end
 end
