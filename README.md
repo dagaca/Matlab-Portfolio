@@ -33,8 +33,8 @@ Her bir proje klasörü içinde ilgili projeye ait Matlab kodları, açıklamala
    - **Açıklama:** Diferansiyel denklemler ve bu denklemlerin çözümü ile ilgili çalışmalar içerir.
    - **[Diferansiyel Denklemler](differential_equations)**
 
-### 8. Çift Yanbandlı Genlik Modülasyonu (double_sideband_amp_mod)
-   - **Açıklama:** Çift yanbandlı genlik modülasyonu üzerine projeler içerir.
+### 8. Çift Yanbant Genlik Modülasyonu (double_sideband_amp_mod)
+   - **Açıklama:** Çift yanbant genlik modülasyonu üzerine projeler içerir.
    - **[Çift Yanbandlı Genlik Modülasyonu](double_sideband_amp_mod)**
 
 ### 9. Fibonacci Serisi (fibonacci_series)
