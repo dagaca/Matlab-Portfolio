@@ -1,3 +1,14 @@
+% Bu MATLAB fonksiyonu, cos(x) trigonometrik fonksiyonunu 
+% Maclaurin serisi kullanarak yaklaþýk bir þekilde hesaplar. 
+% Fonksiyon, belirli bir tolerans (tol) deðeri saðlanana kadar 
+% Maclaurin serisinin terimlerini kullanarak yaklaþýmý iyileþtirir. 
+% 
+% Fonksiyonun girdisi x ve tolerans tol deðerleridir. 
+% Tolerans, serinin ne kadar geniþletileceðini kontrol eder. 
+% Daha küçük bir tolerans, daha hassas bir hesaplama saðlar, 
+% ancak daha fazla hesap maliyetine neden olabilir. 
+% y çýkýþ deðeri, cos(x) fonksiyonunun yaklaþýk deðerini içerir.
+
 function y = cosx_maclaurin(x,tol)
     % cos(x) fonksiyonunu Maclaurin serisi kullanarak yaklaþtýr
 

@@ -1,3 +1,14 @@
+% Bu çalýþma, Gauss fonksiyonunun türetilmiþ hali üzerinden Frekans Alaný 
+% (FD) analizi gerçekleþtirmektedir. Gauss fonksiyonu, matematikte kritik 
+% bir rol oynayan ve handle fonksiyonu olarak ifade edilen bir fonksiyondur. 
+% Grafiði çizdirmek amacýyla belirli bir zaman aralýðý (-4sgm ile 4sgm) 
+% seçilmiþtir. Gauss fonksiyonunun türetilmiþ hali, 
+% hem conv fonksiyonu ile hem de analitik yöntemle elde edilmiþtir. 
+% Bu iki türev ifadesi handle fonksiyonu aracýlýðýyla grafik üzerinde 
+% karþýlaþtýrýlmýþtýr. Analitik türev ifadesinin Frekans Alaný (FD) analizi, 
+% fft komutu kullanýlarak gerçekleþtirilmiþtir. Elde edilen genlik ve 
+% faz spektrumlarý [-Fs/2, Fs/2] aralýðýnda çizdirilmiþ 
+% ve simetrik hale getirilmiþtir.
 %% 1a: Gauss iþareti oluþturma
 clear all; close all; clc;
 

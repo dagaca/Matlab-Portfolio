@@ -1,3 +1,10 @@
+% Bu MATLAB kodu, farklý frekans ve genliklere sahip cosinus 
+% ve kare dalga formlarýný üreterek bunlarý birleþtirir. 
+% Üç grafik, tek bir pencere içinde sýralanarak her biri için baþlýk, 
+% x-ekseni etiketi ve y-ekseni etiketi eklenir. Grafikler, 
+% görsel düzenlemelerle birlikte ayný pencere içinde gösterilir. 
+% Elde edilen sonuçlar, cosinus ve kare dalga formlarýnýn toplamýný 
+% ve bu sinyallerin zaman içindeki deðiþimini gösterir.
 %% x1(t)
 A = 2; 
 f = 1; 

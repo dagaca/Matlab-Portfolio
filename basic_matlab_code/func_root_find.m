@@ -1,3 +1,7 @@
+% Bu fonksiyon, verilen ikinci dereceden polinomun köklerini 
+% hesaplayarak, kullanýcýnýn matematiksel 
+% ifadeyi MATLAB üzerinde iþlemesine olanak tanýr.
+
 function [r1, r2, i1, i2] = func_root_find(A, B, C)
     % A, B ve C katsayýlarýna sahip ikinci dereceden bir polinomun köklerini bulan fonksiyon
     

@@ -1,3 +1,16 @@
+% Bu MATLAB kodu, belirli bir matematiksel formül kullanýlarak 
+% üretilen temel iþaretlerin oluþturulmasýný ve bu iþaretlere 
+% belirli bir sinyal-gürültü oraný ile gürültü eklenmesini içerir. 
+% Elde edilen iþaretler, altý ayrý alt grafik penceresinde 
+% sýrasýyla gösterilir. Giriþ iþareti ve gürültülü iþaretin genel görünümü, 
+% iþaretin nasýl oluþturulduðunu ve gürültü eklemenin etkilerini gösterir.
+% 
+% 
+% Teorik:
+% x(t) = 3.2×cos(2?0.25×t)?2.1×square(2?2×t)+5.3×sin(2?0.5×t+?/17) 
+% olarak verildiðinde 
+% Fs = 100 ve t? [?5, 5] 
+% aralýðýndaki iþaretimiz için:
 %% S3A ve S3B
 clear all; close all; clc;
 fs = 100; % Örnekleme frekansý 100'dür.

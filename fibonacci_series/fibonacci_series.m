@@ -1,3 +1,13 @@
+% Bu MATLAB kodu, Fibonacci serisinin önceki iki teriminin toplamýndan 
+% oluþan sayýlarý üreterek ve bu sayýlarýn çift olup olmadýðýný kontrol 
+% ederek 4 milyona kadar olan çift sayýlarýn sayýsýný bulur.
+% 
+% Bu kod, Fibonacci serisini oluþtururken her terimin önceki iki teriminin 
+% toplamý olduðunu kullanýr. Döngü, belirlenen sýnýra kadar devam eder ve 
+% her terimi kontrol ederek çift sayý olup olmadýðýný kontrol eder, 
+% çiftse sayaç arttýrýlýr. Sonunda, 4 milyona kadar olan çift sayýlarýn 
+% toplamýný ekrana yazdýrýr.
+
 clear all;
 close all;
 clc;

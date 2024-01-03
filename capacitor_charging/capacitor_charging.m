@@ -1,3 +1,16 @@
+% Parametreler: 
+% Vs = 10V, C = 10mF, R = 1.0k Ohm, 10k Ohm, 0.1k Ohm.
+% 
+% Bu MATLAB kodu, farklý direnç deðerleri kullanarak bir kondansatörün 
+% þarj olma sürecini modellemektedir. Kondansatörün kapasitansý ve 
+% üç farklý direnç deðeri belirlenmiþ, ardýndan bu parametrelerle zaman 
+% sabitleri ve voltaj deðerleri hesaplanmýþtýr. 
+% Elde edilen voltaj eðrileri, üç farklý direnç için tek 
+% bir grafik üzerinde çizilmiþtir. Ayrýca, her durumun tam dolma 
+% süresi ve maksimum voltaj deðeri belirlenerek ekrana yazdýrýlmýþtýr. 
+% Bu sayede, farklý direnç deðerlerinin kondansatörün 
+% þarj sürecine etkisi görsel olarak analiz edilebilir.
+
 clear all;
 close all;
 clc;

@@ -1,3 +1,24 @@
+% Bu çalýþmada, Matlab kodu aracýlýðýyla Çift Yanband Genlik Modülasyonu - 
+% Uzun Taþýyýcý (ÇYBGM-UT) sinyalleri incelendi. 
+% Ýlk olarak, verilen sinyallerin grafiklerini çizdik ve 
+% her bir grafiðe uygun baþlýklar eklendi. Bu sinyaller, 
+% bir mesaj sinyali, bir taþýyýcý sinyal ve modüle edilmiþ 
+% çýkýþ sinyali içeriyordu. Daha sonra, farklý modülasyon indeksleri 
+% (ma deðerleri için [0.1, 0.5, 3]) kullanýlarak 
+% s_am = (1 + ma*input).*carrier komut satýrýnda bulunan kod çalýþtýrýldý 
+% ve elde ettiðimiz sonuçlar gözlemlendi. Ardýndan, giriþ, taþýyýcý 
+% ve çýkýþ sinyallerinin genlik spektrumlarýný çýkarmak için fft ve 
+% diðer ilgili fonksiyonlar kullanýldý. Elde edilen genlik ve 
+% faz spektrumlarý tek bir figure üzerinde birleþtirilip 
+% düzenlenerek çizildi. Deneyin temel amacý, modülasyonun 
+% genel prensiplerini anlamak ve verilen sinyallerin 
+% genlik spektrumlarýný analiz etmekti.
+% 
+% Yorumlamalar:
+% ?	ma = 1 için, tam modüleli sinyal þekli gözlemlenir.
+% ?	ma = 0.1 ve ma = 0.5 için, tam modüle olmamýþ bir 
+% sinyal þekli gözlemlenir.
+% ?	ma = 3 için, aþýrý modüleli sinyal þekli gözlemlenir.
 %% 2a) Tasiyicili Genlik Modulasyonu (AM) ve Yorumlanmasi
 close all,clear all,clc
 Fs = 5000; Ts = 1/Fs;

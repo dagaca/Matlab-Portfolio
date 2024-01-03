@@ -1,3 +1,11 @@
+% Bu çalýþmada, Matlab kodu aracýlýðýyla Çift Yanband Genlik Modülasyonu - 
+% Kýsa Taþýyýcý (ÇYBGM-KT) sinyalleri incelendi. Ýlk olarak, verilen 
+% sinyallerin grafiði çizildi ve grafiklere uygun baþlýklar eklendi. 
+% Bu sinyaller, bir giriþ (mesaj) sinyali, bir taþýyýcý sinyal ve 
+% modüle edilmiþ çýkýþ sinyali içeriyordu. Daha sonra, giriþ, taþýyýcý ve 
+% çýkýþ sinyallerinin eksen düzenli genlik spektrumlarýný çýkarmak için 
+% fft ve diðer fonksiyonlarý kullanýldý. Elde ettiðimiz genlik ve faz 
+% spektrumlarýný tek bir figure üzerinde çizildi.
 %% 1a) Cift Yanband Genlik Modulasyonu-Kisa Tasiyici (CYBGM-KT) ve Yorumlanmasi
 % Fs : Isareti MATLAB ortaminda analog gibi islemek icin
 % kullanilan ornekleme frekansi (Fc'nin 100 kati)

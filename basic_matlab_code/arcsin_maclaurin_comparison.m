@@ -1,3 +1,21 @@
+% Bu çalýþma, matematikte Maclaurin serilerinin trigonometrik fonksiyonlarý 
+% yaklaþtýrmak için nasýl kullanýlabileceðini anlamak ve bu yaklaþýmýn 
+% ne kadar doðru olduðunu deðerlendirmek amacýný taþýmaktadýr.
+% 
+% Ýlk olarak, calculate_arcsin_maclaurin fonksiyonu, 
+% kullanýcýnýn belirttiði x vektörü ve tolerans deðeri ile arcsin(x) 
+% fonksiyonunun Maclaurin serisini hesaplar. Bu hesaplama, 
+% seriyi iteratif olarak geniþleterek gerçek arcsin(x) 
+% fonksiyonuna yaklaþtýrma iþlemidir.
+% 
+% Daha sonra, arcsin_maclaurin_comparison fonksiyonu, 
+% kullanýcýdan belirli bir Lx aralýðýný girmesini ister ve 
+% bu aralýkta bir x vektörü oluþturur. Ardýndan, hesaplanan 
+% Maclaurin serisi ve gerçek arcsin(x) fonksiyonu bu x deðerleri 
+% üzerinde karþýlaþtýrýlarak bir grafik çizilir. Bu grafik, 
+% Maclaurin serisinin gerçek fonksiyona ne kadar iyi bir 
+% yaklaþým saðladýðýný görsel olarak gösterir.
+
 function [t, maclaurin, arcsin] = arcsin_maclaurin_comparison()
     % Kullanýcýdan Lx deðerini girmesini ister
     Lx = input('Lx degerini giriniz: ');
