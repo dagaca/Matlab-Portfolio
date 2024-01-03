@@ -1,7 +1,10 @@
 # Matlab Portfolio
 Bu repo, Matlab kullanarak gerçekleştirilmiş çeşitli projelerin ve kod örneklerinin bulunduğu bir portföydür. Aşağıda, bu repodaki başlıca projelerin kısa bir açıklaması ve kullanım kılavuzu bulunmaktadır.
 
+
 ## Projeler
+Her bir proje klasörü içinde ilgili projeye ait Matlab kodları, açıklamalar ve gerekli dosyalar bulunmaktadır. İlgilendiğiniz projeyi seçerek, kendi dosyasını inceleyebilirsiniz.
+
 ### 1. Asenkron Motor Çalışmaları (asynchronous_motor)
    - **Açıklama:** Asenkron motorun çeşitli özellikleri ve kontrolü üzerine çalışmalar içerir.
    - **[Asenkron Motor Çalışmaları](asynchronous_motor)**
@@ -58,8 +61,6 @@ Bu repo, Matlab kullanarak gerçekleştirilmiş çeşitli projelerin ve kod örn
    - **Açıklama:** Reaktif güç kompanzasyonu üzerine projeler içerir.
    - **[Reaktif Güç Kompanzasyonu](reactive_power_compensation)**
 
-
-Her bir proje klasörü içinde ilgili projeye ait Matlab kodları, açıklamalar ve gerekli dosyalar bulunmaktadır. İlgilendiğiniz projeyi seçerek, kendi dosyasını inceleyebilirsiniz.
 
 ## Nasıl Kullanılır?
    - GitHub deposunu bilgisayarınıza klonlayın veya ZIP olarak indirin.
