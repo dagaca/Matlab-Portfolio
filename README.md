@@ -62,7 +62,7 @@ Bu repo, Matlab kullanarak gerçekleştirilmiş çeşitli projelerin ve kod örn
 Her bir proje klasörü içinde ilgili projeye ait Matlab kodları, açıklamalar ve gerekli dosyalar bulunmaktadır. İlgilendiğiniz projeyi seçerek, kendi dosyasını inceleyebilirsiniz.
 
 ## Nasıl Kullanılır?
-GitHub deposunu bilgisayarınıza klonlayın veya ZIP olarak indirin.
-MATLAB ortamınızı açın.
-İlgilendiğiniz projenin klasörüne gidin.
-MATLAB'da .m veya .slx uzantılı dosyaları çalıştırarak projeleri keşfedin.
+- GitHub deposunu bilgisayarınıza klonlayın veya ZIP olarak indirin.
+- MATLAB ortamınızı açın.
+- İlgilendiğiniz projenin klasörüne gidin.
+- MATLAB'da .m veya .slx uzantılı dosyaları çalıştırarak projeleri keşfedin.
