@@ -1,5 +1,5 @@
 # Matlab Portfolio
-Bu repo, Matlab kullanarak gerçekleştirilmiş çeşitli projelerin ve kod örneklerinin bulunduğu bir portföydür. Aşağıda, bu repodaki başlıca projelerin kısa bir açıklaması ve kullanım kılavuzu bulunmaktadır.
+Bu repo, MATLAB R2017b kullanarak gerçekleştirilmiş çeşitli projelerin ve kod örneklerinin bulunduğu bir portföydür. Aşağıda, bu repodaki başlıca projelerin kısa bir açıklaması ve kullanım kılavuzu bulunmaktadır.
 
 
 ## Projeler
