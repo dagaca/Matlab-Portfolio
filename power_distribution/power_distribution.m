@@ -1,5 +1,6 @@
-% Bir devre þemasýndaki  RL 0 dan 50K ohm a kadar deðiþmektedir. 
-% Matlab kodu, RL üzerinde gerçekleþtirilen güç daðýlýmýný modellemektedir.
+% "power_distribution.png" dosyasýnda yer alan devre þemasýndaki  
+% RL 0 dan 50K ohm a kadar deðiþmektedir. Matlab kodu, RL üzerinde 
+% gerçekleþtirilen güç daðýlýmýný modellemektedir.
 % Bu kod, RL (yük direnci) deðerlerini deðiþtirerek devrede harcanan gücü 
 % modelleyen bir grafik çizer. Ayrýca, güç türevinin negatiften pozitife 
 % geçtiði noktalarý belirleyerek, maksimum gücün hangi RL deðerinde elde 

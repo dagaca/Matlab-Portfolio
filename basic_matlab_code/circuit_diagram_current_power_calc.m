@@ -1,6 +1,6 @@
-% Bu MATLAB kodu, bir devre þemasýnýn matris 
-% formülasyonunu kullanarak 8 ohm üzerinde harcanan enerji 
-% ve 10V'un saðladýðý akým deðerini hesaplar.
+% Bu MATLAB kodu, "circuit_diagram_current_power_calc.png" dosyasýnda 
+% yer alan devre þemasýnýn matris formülasyonunu kullanarak 8 ohm 
+% üzerinde harcanan enerji ve 10V'un saðladýðý akým deðerini hesaplar.
 
 clear all;
 close all;

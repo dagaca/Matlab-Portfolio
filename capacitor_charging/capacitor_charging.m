@@ -1,7 +1,8 @@
 % Parametreler: 
 % Vs = 10V, C = 10mF, R = 1.0k Ohm, 10k Ohm, 0.1k Ohm.
 % 
-% Bu MATLAB kodu, farklý direnç deðerleri kullanarak bir kondansatörün 
+% Bu MATLAB kodu, farklý direnç deðerleri kullanarak 
+% "capacitor_charging.png" dosyasýnda yer alan kondansatörün 
 % þarj olma sürecini modellemektedir. Kondansatörün kapasitansý ve 
 % üç farklý direnç deðeri belirlenmiþ, ardýndan bu parametrelerle zaman 
 % sabitleri ve voltaj deðerleri hesaplanmýþtýr. 
